@@ -69,7 +69,7 @@ vagrant up
 
 ## Using this role
 
-To use this role you follow the example in the [examples/] dir. Adjust the hosts.ini file with your hosts and run the playbook:
+Adjust the hosts.ini file with your hosts and run the playbook:
 
 ```
 user@mintrrr:~$ ansible-playbook -i hosts-ubuntu.ini site.yml -e kubernetes_init_host= 
