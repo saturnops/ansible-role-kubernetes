@@ -5,7 +5,7 @@
   roles: 
     - role: ansible-role-kubernetes
   vars_files:
-    - vars.yml
+    - vars.yaml
 
 - hosts: kubeworker 
   become: yes
@@ -13,4 +13,4 @@
   roles: 
     -  role: ansible-role-kubernetes
   vars_files:
-    - vars.yml
+    - vars.yaml
