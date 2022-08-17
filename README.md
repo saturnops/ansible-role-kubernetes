@@ -58,6 +58,8 @@ This role accept this variables:
 
 
 
+
+
 - Use [Vagrant](https://www.vagrantup.com) and VirtualBox to test the role by bringing up an example infrastructure. After downloading this repository, start the virtual machines with:
 
 ```
